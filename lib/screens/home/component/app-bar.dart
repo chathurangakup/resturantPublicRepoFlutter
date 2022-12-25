@@ -6,12 +6,12 @@ AppBar homeAppbar(BuildContext context){
  return AppBar(
     backgroundColor: Colors.white,
     elevation: 0,
-    title:new Center(child:
-    RichText(
+    title:new Center(
+      child: RichText(
       text: TextSpan(
           style:Theme.of(context)
               .textTheme
-              .title
+              .subtitle1
               .copyWith(fontWeight: FontWeight.bold),
           children: [
             TextSpan(

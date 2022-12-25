@@ -13,7 +13,7 @@ import 'package:resturantapp/models/homemodels/likesmodel/likesmodel.dart';
 import 'package:resturantapp/models/homemodels/vartentmodel.dart';
 
 class ItemServices{
-  static const API = 'https://resturant123newapp.herokuapp.com';
+  static const API = '';
 
   Future<ApiResponse<List<ItemList>>> getItemList(){
     // print(item.toJson());
@@ -26,7 +26,7 @@ class ItemServices{
       final listview =<ItemList>[];
       // list.map((i) => projectDetails.fromJson(i)).toList()
       for (var item in jsonDate['items']){
-       // print(item['menuItemsId']);
+       print(item['menuItemsId']);
         final itemresult= ItemList(
           itemId: item['menuItemsId'],
           itemName: item['menuItemsName'],

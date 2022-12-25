@@ -57,7 +57,7 @@ class FavouriteScreenState extends State<FavouriteScreen>{
     Size size=MediaQuery.of(context).size;
     // TODO: implement build
     return Scaffold(
-      resizeToAvoidBottomPadding: false,
+      // resizeToAvoidBottomPadding: false,
       appBar: AppBar(
         backgroundColor: kPrimaryColor,
         title: Text('Favourites'),

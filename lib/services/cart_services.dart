@@ -11,7 +11,7 @@ import 'package:resturantapp/models/profilemodels/profileUpdateBodyModel.dart';
 import 'package:resturantapp/models/profilemodels/profileupdateModel.dart';
 
 class CartServeces {
-  static const API = 'https://resturant123newapp.herokuapp.com';
+  static const API = '';
 
 
 

@@ -10,7 +10,7 @@ import 'package:resturantapp/models/signupmodels/signupmodel.dart';
 
 
 class StartupServeces{
-  static const API = 'https://resturant123newapp.herokuapp.com';
+  static const API = '';
 
 
   Future<ApiResponse<LoginModel>> userLogin(LoginbodyModel item){

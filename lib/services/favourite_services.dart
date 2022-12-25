@@ -7,7 +7,7 @@ import 'package:resturantapp/models/homemodels/item_cat_list.dart';
 import 'package:resturantapp/models/homemodels/vartentmodel.dart';
 
 class FavouriteServeces {
-  static const API = 'https://resturant123newapp.herokuapp.com';
+  static const API = '';
 
 //get item ctegory
   Future<ApiResponse<List<ItemCatListModel>>> getFavouriteItems(String search,

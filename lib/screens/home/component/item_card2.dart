@@ -86,7 +86,7 @@ class ItemCard2 extends StatelessWidget{
               child:  Text(
                 '\Rs:$price',
                 style:Theme.of((context)).textTheme
-                    .title
+                    .subtitle1
                     .copyWith(color: kPrimaryColor),
               ),
             ),
@@ -99,7 +99,7 @@ class ItemCard2 extends StatelessWidget{
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Text(title,
-                          style:Theme.of(context).textTheme.title),
+                          style:Theme.of(context).textTheme.subtitle1),
                       Text(desc,
                           maxLines: 4,
                           style:TextStyle(

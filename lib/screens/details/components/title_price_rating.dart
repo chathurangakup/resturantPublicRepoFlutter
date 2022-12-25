@@ -35,7 +35,7 @@ class TitlepriceRating extends StatelessWidget{
               children: <Widget>[
                 Text(
                   itemCatname,
-                  style: Theme.of(context).textTheme.headline,
+                  style: Theme.of(context).textTheme.bodyText1,
                 ),
 
                 Row(
@@ -73,7 +73,7 @@ class TitlepriceRating extends StatelessWidget{
                 width: 65,
                 color: kPrimaryColor,
                 child: Text('\Rs'+ price,
-                  style: Theme.of(context).textTheme.title.copyWith(
+                  style: Theme.of(context).textTheme.subtitle1.copyWith(
                     color: Colors.white,fontWeight: FontWeight.bold,
                     fontSize: 15
                 ),),

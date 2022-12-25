@@ -113,25 +113,25 @@ class _TabNavigatorScreenState extends State<TabNavigatorScreen> {
 
         items: [
           BottomNavigationBarItem(
-            title: Text('Home'),
+            label: 'Home',
               icon: Icon(
                 Icons.home,
                 size: 32.0,
               )
           ),
           BottomNavigationBarItem(
-              title: Text('TrackOrder'),
+              label: 'TrackOrder',
               icon: Icon(
                 Icons.healing,
                 size: 32.0,
               )
           ),
           BottomNavigationBarItem(
-              title: Text('Favourite'),
+              label:'Favourite',
               icon: Icon(AntDesign.heart)
           ),
           BottomNavigationBarItem(
-              title: Text('Profile'),
+              label: 'Profile',
               icon: Icon(
                 Icons.account_circle,
                 size: 32.0,

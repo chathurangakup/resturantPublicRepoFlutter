@@ -9,7 +9,7 @@ import 'package:resturantapp/models/commonmodels/addressbodymodel.dart';
 import 'package:resturantapp/models/commonmodels/addressmodel.dart';
 
 class AddressServeces{
-  static const API = 'https://resturant123newapp.herokuapp.com';
+  static const API = '';
 
 
   Future<ApiResponse<AddressModel>> addAddress(AddressbodyModel item){

@@ -10,7 +10,7 @@ import 'package:resturantapp/models/profilemodels/profileupdateModel.dart';
 
 
 class ProfileServeces {
-  static const API = 'https://resturant123newapp.herokuapp.com';
+  static const API = '';
 
 
   Future<ApiResponse<UderDetailsModel>> getUserDetails(String $accesstoken,String userid) {
